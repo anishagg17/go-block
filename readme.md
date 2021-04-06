@@ -1,6 +1,6 @@
 # go-block
 
-My own blockchain implementation in goLang using `sha256 hash` and `badger db`.
+My own blockchain implementation in `Go` using `sha256 hash` and `badger db`.
 
 - Go version `1.16.2 darwin/amd64`
 
