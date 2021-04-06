@@ -14,7 +14,21 @@ My own blockchain implementation in goLang using `sha256 hash` and `badger db`.
 ## Development
 
 -  Run `go run main.go --help` to get all the applicable commands.
+```
+Usage: 
+ add -block <BLOCK_DATA> - add a block to the chain
+ print - prints the blocks in the chain
+```
 
 -  Run `go run main.go add -block "data"` to add a new block with data="data" into the blockchain.
 
--  Run `go run main.go print` to print the entire blockchain.
+-  Run `go run main.go print` to print the entire blockchain. Demo output :   
+```
+Previous hash: 000be79ee71e25c20f15189e544b1c60aa81f1414f6ed33636dfdbd68ddc68b7
+data: hexxx
+hash: 0001c19e5f888aab7e502de21c3dabe93192695ea46a6b00797da84b3c23ec28
+
+Previous hash: 
+data: Origin
+hash: 000be79ee71e25c20f15189e544b1c60aa81f1414f6ed33636dfdbd68ddc68b7
+```
